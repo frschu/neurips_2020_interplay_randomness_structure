@@ -10,10 +10,11 @@ To reproduce the figures, run the figures_\*.ipynb notebooks. The training data 
 
 ## Requirements
 
-To install requirements:
+python 3.8
+numpy 1.18.5
+torch 1.6.0
+matplotlib 3.2.2
 
-```setup
-pip install -r requirements.txt
-```
-
->📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
+For the NLP task, we additionally need
+torchtext 0.7.0
+spacy 2.3.2 (tokenizer)
