@@ -1,7 +1,8 @@
 import numpy as np
+import os
 
 # Path for figures
-figure_path = "./figures"
+data_dir = os.path.join("..", "figures")
 
 # Width of figures (full page)
 fig_width = 8
