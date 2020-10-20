@@ -10,11 +10,12 @@ To reproduce the figures, run the figures_\*.ipynb notebooks. The training data 
 
 ## Requirements
 
-python 3.8
-numpy 1.18.5
-torch 1.6.0
-matplotlib 3.2.2
+* python 3.8
+* numpy 1.18.5
+* torch 1.6.0
+* matplotlib 3.2.2
 
 For the NLP task, we additionally need
-torchtext 0.7.0
-spacy 2.3.2 (tokenizer)
+
+* torchtext 0.7.0
+* spacy 2.3.2 (tokenizer)
