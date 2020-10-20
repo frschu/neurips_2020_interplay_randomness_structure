@@ -96,21 +96,4 @@ data/*
 *.log
 *.pkl
 
-# literature
-literature/
-papers/
-
-# specifics
-# Tensorflow models
-tf_models/
-
-# Don't upload all the figures
-%03d.png
-
-# Don't update movies
-movies/
-
-# Figures
-local_figures/
-
 
