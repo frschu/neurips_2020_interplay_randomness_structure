@@ -8,6 +8,13 @@ To train models, run the generate_\*.ipynb notebooks. All data is saved in the d
 
 To reproduce the figures, run the figures_\*.ipynb notebooks. The training data files may need to be adjusted according to the files available (training parameters are partially kept in the file names).
 
+The file names correspond to the following parts of the paper / figures:
+* 'linear': linear RNN trained on the simplified input-driven fixed point task
+* 'nonlinear': nonlinear RNN trained on the three neuroscience tasks ('flipflop', 'mante', 'romo').
+* 'sentiment_analysis': LSTM model trained on the sentiment analysis task
+* 'supp_cosine': linear RNN trained to generate a cosine function (supplementary)
+* 'supp_norm_scale_with_N': nonlinear RNN trained on the three neuroscience tasks, iterating over network size N
+
 ## Requirements
 
 * python 3.8
