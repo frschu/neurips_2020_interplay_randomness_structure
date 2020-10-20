@@ -4,9 +4,9 @@ This repository accompanies the NeurIPS 2020 conference paper [The interplay bet
 
 The repository contains code to reproduce the results presented in the paper: training the RNN models and producing the figures with data generated from training. 
 
-To train models, run the generate_\*.ipynb notebooks. All data is saved in the directory './data/' (this can be changed globally in 'data_dir.py').
+To train models, run the generate_\*.ipynb notebooks. All data is saved in the directory 'data/' (this can be changed globally in 'data_dir.py').
 
-To reproduce the figures, run the figures_\*.ipynb notebooks. The training data files may need to be adjusted according to the files available (training parameters are partially kept in the file names).
+To reproduce the figures, run the figures_\*.ipynb notebooks. The training data files may need to be adjusted according to the files available (training parameters are partially kept in the file names). All figures are save to the directory 'figures/' (this can be changed globally in 'fig_specs.py').
 
 The file names correspond to the following parts of the paper / figures:
 * 'linear': linear RNN trained on the simplified input-driven fixed point task
