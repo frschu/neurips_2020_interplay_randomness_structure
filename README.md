@@ -8,12 +8,21 @@ To train models, run the generate_\*.ipynb notebooks. All data is saved in the d
 
 To reproduce the figures, run the figures_\*.ipynb notebooks. The training data files may need to be adjusted according to the files available (training parameters are partially kept in the file names).
 
+The file names correspond to the following parts of the paper / figures:
+* 'linear': linear RNN trained on the simplified input-driven fixed point task
+* 'nonlinear': nonlinear RNN trained on the three neuroscience tasks ('flipflop', 'mante', 'romo').
+* 'sentiment_analysis': LSTM model trained on the sentiment analysis task
+* 'supp_cosine': linear RNN trained to generate a cosine function (supplementary)
+* 'supp_norm_scale_with_N': nonlinear RNN trained on the three neuroscience tasks, iterating over network size N
+
 ## Requirements
 
-To install requirements:
+* python 3.8
+* numpy 1.18.5
+* torch 1.6.0
+* matplotlib 3.2.2
 
-```setup
-pip install -r requirements.txt
-```
+For the NLP task, we additionally need
 
->📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
+* torchtext 0.7.0
+* spacy 2.3.2 (tokenizer)
