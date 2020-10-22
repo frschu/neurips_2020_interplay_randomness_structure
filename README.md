@@ -19,7 +19,7 @@ The file names correspond to the following parts of the paper / figures:
 
 * python 3.8
 * numpy 1.18.5
-* torch 1.6.0
+* pytorch 1.6.0
 * matplotlib 3.2.2
 
 For the NLP task, we additionally need
